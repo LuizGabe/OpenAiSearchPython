@@ -1,7 +1,8 @@
+from retornaConfig import apiKeyOpenai
 import openai
 
 async def pesquisar(pesquisa):
-  openai.api_key = ''
+  openai.api_key = apiKeyOpenai
 
   try:
     response = openai.Completion.create(

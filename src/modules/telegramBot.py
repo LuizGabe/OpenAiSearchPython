@@ -1,7 +1,7 @@
+from retornaConfig import myChatTelegram, tokenBotFather
 import telegram
 
-bot = telegram.Bot(token='')
-myChatTelegram = ''
+bot = telegram.Bot(token=tokenBotFather)
 
 async def telegramMessage(text):
   await bot.send_message(
