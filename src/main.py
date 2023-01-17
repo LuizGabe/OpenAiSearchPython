@@ -1,2 +1,5 @@
+from modules.IOPort import retornaArquivoEntrada, escreverArquivoSaida
 
-print('Hello World!')
+print(retornaArquivoEntrada())
+
+escreverArquivoSaida('Hello World!')
