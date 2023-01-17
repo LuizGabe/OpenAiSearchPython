@@ -1,4 +1,4 @@
-from retornaConfig import apiKeyOpenai
+from modules.retornaConfig import apiKeyOpenai
 import openai
 
 async def pesquisar(pesquisa):

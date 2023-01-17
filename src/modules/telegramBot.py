@@ -1,4 +1,4 @@
-from retornaConfig import myChatTelegram, tokenBotFather
+from modules.retornaConfig import myChatTelegram, tokenBotFather
 import telegram
 
 bot = telegram.Bot(token=tokenBotFather)

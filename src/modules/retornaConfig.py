@@ -18,8 +18,8 @@ apiKeyOpenai = jsonConfig['API_KEY_OPENAI']
 tokenBotFather = jsonConfig['TOKEN_BOTFATHER']
 
 sendMessage = jsonConfig['SEND_MESSAGE']
-sendDocx = jsonConfig['CRIAR_DOCX']
-createDocx = jsonConfig['SEND_DOCX']
+createDocx = jsonConfig['CRIAR_DOCX']
+sendDocx = jsonConfig['SEND_DOCX']
 
 optionData = {}
 optionBool = {}

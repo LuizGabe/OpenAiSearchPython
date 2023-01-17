@@ -33,11 +33,5 @@ def configAndSave():
   document.sections[0].top_margin = Cm(3)
   document.sections[0].botton_margin = Cm(2)
 
-  # Retira os erros de português
-  document.correct_spelling()
-
   # salva o documento
   document.save(pathDocumentSave)
-
-def deleteDocument():
-  document.delete(pathDocumentSave)
