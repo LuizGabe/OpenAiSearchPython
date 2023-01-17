@@ -15,7 +15,7 @@ pesquisaLimpa =  limparTextoOuLista(retornaArquivoEntrada())
 conteudoSoRespostas = []
 
 async def main():
-  for i in tqdm(range(5)):
+  for i in tqdm(range(len(pesquisaLimpa))):
     pesquisa = pesquisaLimpa[i]
     retorno = await pesquisar(pesquisa)
 
