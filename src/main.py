@@ -1,5 +1,5 @@
 from modules.IOPort import retornaArquivoEntrada, escreverArquivoSaida
+from modules.openAi import pesquisar
+import asyncio
 
-print(retornaArquivoEntrada())
-
-escreverArquivoSaida('Hello World!')
+print(asyncio.run(pesquisar('Fotossintese')))
