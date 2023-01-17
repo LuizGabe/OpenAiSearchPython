@@ -1,0 +1,12 @@
+{
+  "API_KEY_OPENAI": "",
+
+  "SEND_MESSAGE": false,
+  "CRIAR_DOCX": false,
+  "SEND_DOCX": false,
+  "TOKEN_BOTFATHER": "",
+  "YOUR_CHAT_ID": "",
+
+  "NOME": ""
+
+}
